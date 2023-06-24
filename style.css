@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+}
+form{
+    line-height: 100%;
+}
+#error-text{
+    color: red;
+}
+#success-text{
+color: green;
+}
+
+#username, #email,#password,#password-2{
+    width: 48%;
+    margin: 10px 0;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    color: white;
+    background-color: black;
+   }
+   #signUp-btn{
+    background-color: #faf1f1;
+    color: #0c0000;
+    height: 40px;
+    width: 140px;
+    margin-top: 20px;
+   }
+   nav{
+    text-align: right;
+    list-style: none;
+    
+    display: inline-block;
+    margin-left: 40%;
+    padding-right: 40%;
+   }
